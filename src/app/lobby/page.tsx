@@ -89,22 +89,25 @@ export default function LobbyPage() {
 
   return (
     <div className="fixed inset-0 flex flex-col items-center justify-center bg-gradient-to-br from-[#060610] via-[#0a1025] to-[#0f0a20]">
-      {/* Stars */}
+      {/* Stars — seeded */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {Array.from({ length: 40 }).map((_, i) => (
-          <div
-            key={i}
-            className="absolute rounded-full bg-white animate-pulse"
-            style={{
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-              width: `${1 + Math.random() * 2}px`,
-              height: `${1 + Math.random() * 2}px`,
-              animationDelay: `${Math.random() * 3}s`,
-              opacity: 0.2 + Math.random() * 0.5,
-            }}
-          />
-        ))}
+        {Array.from({ length: 40 }).map((_, i) => {
+          const seed = i * 137.508;
+          return (
+            <div
+              key={i}
+              className="absolute rounded-full bg-white animate-pulse"
+              style={{
+                left: `${(seed * 0.618) % 100}%`,
+                top: `${(seed * 0.382) % 100}%`,
+                width: `${1 + (i % 3)}px`,
+                height: `${1 + ((i + 1) % 3)}px`,
+                animationDelay: `${(i * 0.37) % 3}s`,
+                opacity: 0.2 + ((i * 7) % 5) * 0.1,
+              }}
+            />
+          );
+        })}
       </div>
 
       <div className="relative z-10 w-[560px] max-w-[95vw] text-center">
