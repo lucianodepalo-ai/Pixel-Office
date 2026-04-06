@@ -384,6 +384,54 @@ canvas{display:block;cursor:grab}canvas:active{cursor:grabbing}
 .ac-test-result{margin-top:8px;padding:8px 12px;border-radius:8px;font-family:Silkscreen,cursive;font-size:9px;display:none}
 .ac-test-result.ok{display:block;background:rgba(0,255,136,0.06);border:1px solid #00ff8833;color:#00ff88}
 .ac-test-result.err{display:block;background:rgba(255,68,68,0.06);border:1px solid #ff444433;color:#ff4444}
+
+/* ====== AGENT MARKETPLACE ====== */
+#agent-market{position:fixed;inset:0;z-index:4500;background:rgba(2,2,8,0.9);backdrop-filter:blur(6px);display:none;justify-content:center;align-items:center}
+#agent-market.open{display:flex}
+.am-box{width:640px;max-width:96vw;max-height:88vh;background:#0b0b16;border:2px solid #1a1a2e;border-radius:16px;overflow:hidden;display:flex;flex-direction:column;animation:so .25s ease-out}
+.am-header{padding:14px 20px;background:#0e0e1c;border-bottom:1px solid #1a1a2e;display:flex;align-items:center;justify-content:space-between}
+.am-title{font-family:Silkscreen,cursive;font-size:14px;font-weight:700;color:#ffcc00}
+.am-tabs{display:flex;border-bottom:1px solid #141422;background:#0a0a14}
+.am-tab{flex:1;padding:10px;text-align:center;font-family:Silkscreen,cursive;font-size:10px;font-weight:700;color:#444;cursor:pointer;border-bottom:2px solid transparent;transition:all .15s}
+.am-tab:hover{color:#888}
+.am-tab.active{color:#ffcc00;border-bottom-color:#ffcc00;background:rgba(255,200,0,0.03)}
+.am-body{flex:1;overflow-y:auto;padding:12px;scrollbar-width:thin;scrollbar-color:#1a1a2e transparent;max-height:55vh}
+.am-listing{display:flex;align-items:center;gap:12px;padding:12px;background:rgba(255,255,255,0.01);border:1px solid #12121e;border-radius:12px;margin-bottom:8px;transition:all .18s}
+.am-listing:hover{background:rgba(255,200,0,0.02);border-color:#ffcc0033}
+.am-listing-icon{width:44px;height:44px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:22px;flex-shrink:0;border:1px solid #1a1a2e;background:rgba(255,255,255,0.02)}
+.am-listing-info{flex:1;min-width:0}
+.am-listing-name{font-family:Silkscreen,cursive;font-size:11px;font-weight:700;color:#ccc}
+.am-listing-desc{font-family:Silkscreen,cursive;font-size:9px;color:#555;margin-top:2px}
+.am-listing-stats{display:flex;gap:8px;margin-top:4px}
+.am-listing-stat{font-family:Silkscreen,cursive;font-size:8px;color:#444;background:rgba(255,255,255,0.02);border:1px solid #1a1a2e;border-radius:6px;padding:2px 6px}
+.am-listing-price{font-family:Silkscreen,cursive;font-size:12px;font-weight:700;color:#ffcc00;display:flex;align-items:center;gap:4px;flex-shrink:0}
+.am-listing-btn{font-family:Silkscreen,cursive;font-size:9px;font-weight:700;padding:7px 14px;border-radius:8px;border:none;cursor:pointer;transition:all .15s;flex-shrink:0}
+.am-listing-btn.buy{background:#ffcc00;color:#0a0a14}
+.am-listing-btn.buy:hover{background:#ffdd00;transform:translateY(-1px)}
+.am-listing-btn.sell{background:transparent;border:1px solid #ff444444;color:#ff4444}
+.am-listing-btn.sell:hover{background:#ff444411}
+.am-listing-btn.bid{background:transparent;border:1px solid #00ff8844;color:#00ff88}
+.am-listing-btn.bid:hover{background:#00ff8811}
+.am-sell-form{padding:16px;background:#0a0a14;border:1px solid #1a1a2e;border-radius:12px;margin-bottom:12px}
+.am-sell-form label{font-family:Silkscreen,cursive;font-size:9px;color:#555;display:block;margin-bottom:4px}
+.am-sell-form select,.am-sell-form input{width:100%;padding:8px 10px;background:#060610;border:1px solid #1a1a2e;border-radius:8px;color:#ccc;font-family:Silkscreen,cursive;font-size:11px;outline:none;margin-bottom:10px}
+.am-auction{background:linear-gradient(135deg,rgba(255,200,0,0.03),rgba(255,100,0,0.02));border-color:#ffcc0022!important}
+.am-auction-timer{font-family:'Press Start 2P',cursive;font-size:8px;color:#ff8800}
+.am-empty{text-align:center;padding:30px;font-family:Silkscreen,cursive;font-size:11px;color:#2a2a3e;line-height:2}
+/* ====== ROOM CHAT ====== */
+#room-chat{position:fixed;bottom:70px;left:62px;width:300px;z-index:18;display:flex;flex-direction:column;gap:0}
+#chat-messages{max-height:180px;overflow-y:auto;display:flex;flex-direction:column-reverse;gap:3px;scrollbar-width:none;padding-bottom:4px}
+#chat-messages::-webkit-scrollbar{display:none}
+.chat-msg{padding:6px 10px;background:rgba(6,6,14,0.85);border-radius:8px;animation:fu .2s;max-width:100%}
+.chat-msg-user{font-family:Silkscreen,cursive;font-size:9px;font-weight:700;margin-bottom:1px}
+.chat-msg-text{font-family:Silkscreen,cursive;font-size:10px;color:#bbb;word-wrap:break-word}
+.chat-msg-time{font-family:Silkscreen,cursive;font-size:7px;color:#333;float:right;margin-top:2px}
+#chat-input-row{display:flex;gap:4px;margin-top:4px}
+#chat-input{flex:1;padding:8px 12px;background:rgba(6,6,14,0.92);border:1px solid #1a1a2e;border-radius:10px;color:#ccc;font-family:Silkscreen,cursive;font-size:11px;outline:none;transition:border .15s}
+#chat-input:focus{border-color:#00ff8855}
+#chat-input::placeholder{color:#2a2a3e}
+#chat-send{width:36px;height:36px;border-radius:10px;background:rgba(0,255,136,0.1);border:1px solid #00ff8844;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:14px;transition:all .15s;flex-shrink:0}
+#chat-send:hover{background:rgba(0,255,136,0.2);border-color:#00ff88}
 </style>
 </head>
 <body>
@@ -546,6 +594,32 @@ canvas{display:block;cursor:grab}canvas:active{cursor:grabbing}
     </div>
   </div>
 </div>
+
+<!-- AGENT MARKETPLACE -->
+<div id="agent-market">
+  <div class="am-box">
+    <div class="am-header">
+      <div class="am-title">🏪 Marketplace de Agentes</div>
+      <button class="ac-close" onclick="closeMarket()">✕</button>
+    </div>
+    <div class="am-tabs">
+      <div class="am-tab active" onclick="switchMarketTab('buy',this)">🛒 Comprar</div>
+      <div class="am-tab" onclick="switchMarketTab('sell',this)">💰 Vender</div>
+      <div class="am-tab" onclick="switchMarketTab('auctions',this)">🔨 Subastas</div>
+      <div class="am-tab" onclick="switchMarketTab('my',this)">📋 Mis Ofertas</div>
+    </div>
+    <div class="am-body" id="am-body"></div>
+  </div>
+</div>
+
+<!-- ROOM CHAT -->
+<div id="room-chat">
+  <div id="chat-messages"></div>
+  <div id="chat-input-row">
+    <input id="chat-input" type="text" placeholder="Escribí un mensaje..." maxlength="200">
+    <button id="chat-send" onclick="sendChatMessage()">➤</button>
+  </div>
+</div>
 <div id="game-wrapper" style="display:none">
 
 <!-- SIDEBAR NAV -->
@@ -554,7 +628,7 @@ canvas{display:block;cursor:grab}canvas:active{cursor:grabbing}
   <div class="sb-btn" data-tip="Navigator" onclick="toggleNavigator('public')">🧭</div>
   <div class="sb-btn" data-tip="Mi Oficina" onclick="goToMyRoom()">🏠</div>
   <div class="sb-sep"></div>
-  <div class="sb-btn" data-tip="Marketplace" onclick="toggleNavigator('market')">🏪</div>
+  <div class="sb-btn" data-tip="Marketplace" onclick="openMarket()">🏪</div>
   <div class="sb-btn" data-tip="Eventos" onclick="toggleNavigator('events')">🎯</div>
 </div>
 
@@ -1584,6 +1658,220 @@ function toggleHabboAll() {
   showToast(isOn ? 'H Modo Habbo activado' : 'Modo custom activado', isOn ? '#00ccff' : '#ff66ff');
 }
 
+
+// ====== AGENT MARKETPLACE ======
+var marketTab = 'buy';
+
+// Demo marketplace listings
+var MARKET_LISTINGS = [
+  {id:'ml1', name:'Senior Full-Stack Dev', emoji:'💻', class:'Full-Stack · Arquitecto', level:42, color:'#00aaff', price:800, seller:'@dev_masters', skills:['React','Node','PostgreSQL'], type:'direct'},
+  {id:'ml2', name:'Data Science Expert', emoji:'📊', class:'Data Scientist · PhD', level:38, color:'#aa44ff', price:650, seller:'@data_guru', skills:['Python','ML','TensorFlow'], type:'direct'},
+  {id:'ml3', name:'UI/UX Designer Pro', emoji:'🎨', class:'Designer · Creative Lead', level:35, color:'#ff66ff', price:500, seller:'@design_studio', skills:['Figma','CSS','Motion'], type:'direct'},
+  {id:'ml4', name:'DevOps Engineer', emoji:'🔧', class:'DevOps · SRE', level:40, color:'#ff8800', price:750, seller:'@cloud_ops', skills:['Docker','K8s','Terraform'], type:'direct'},
+  {id:'ml5', name:'Security Analyst', emoji:'🛡️', class:'CyberSec · Pentester', level:45, color:'#ff4444', price:900, seller:'@sec_team', skills:['Pentest','OSINT','Forensics'], type:'direct'},
+  {id:'ml6', name:'AI/ML Researcher', emoji:'🧠', class:'Researcher · Innovator', level:50, color:'#00ff88', price:0, seller:'@ai_labs', skills:['PyTorch','LLM','RAG'], type:'auction', currentBid:450, endsIn:'2h 15m', bids:7},
+  {id:'ml7', name:'Mobile Dev Expert', emoji:'📱', class:'Mobile · Cross-Platform', level:33, color:'#00ccff', price:0, seller:'@app_forge', skills:['Flutter','Swift','Kotlin'], type:'auction', currentBid:320, endsIn:'5h 42m', bids:4},
+  {id:'ml8', name:'QA Automation Lead', emoji:'🧪', class:'QA · Test Architect', level:36, color:'#ffaa00', price:550, seller:'@quality_first', skills:['Playwright','Jest','CI/CD'], type:'direct'},
+];
+
+function openMarket() {
+  marketTab = 'buy';
+  document.getElementById('agent-market').classList.add('open');
+  document.getElementById('agent-market').style.display = 'flex';
+  document.querySelectorAll('.am-tab').forEach(function(t,i){t.classList.toggle('active',i===0)});
+  renderMarket();
+}
+function closeMarket() {
+  document.getElementById('agent-market').classList.remove('open');
+  document.getElementById('agent-market').style.display = 'none';
+}
+function switchMarketTab(tab, el) {
+  marketTab = tab;
+  document.querySelectorAll('.am-tab').forEach(function(t){t.classList.remove('active')});
+  if (el) el.classList.add('active');
+  renderMarket();
+}
+
+function renderMarket() {
+  var body = document.getElementById('am-body');
+
+  if (marketTab === 'buy') {
+    var directs = MARKET_LISTINGS.filter(function(l){return l.type==='direct'});
+    body.innerHTML = directs.map(function(l) {
+      var canBuy = COINS >= l.price;
+      return '<div class="am-listing">' +
+        '<div class="am-listing-icon" style="border-color:' + l.color + '33;background:' + l.color + '08">' + l.emoji + '</div>' +
+        '<div class="am-listing-info">' +
+        '<div class="am-listing-name" style="color:' + l.color + '">' + l.name + '</div>' +
+        '<div class="am-listing-desc">' + l.class + ' — por ' + l.seller + '</div>' +
+        '<div class="am-listing-stats">' + l.skills.map(function(s){return '<div class="am-listing-stat">' + s + '</div>'}).join('') +
+        '<div class="am-listing-stat">Lv.' + l.level + '</div></div></div>' +
+        '<div style="text-align:right">' +
+        '<div class="am-listing-price">🪙 ' + l.price + '</div>' +
+        '<button class="am-listing-btn buy" onclick="buyAgent(\'' + l.id + '\')"' + (canBuy?'':' disabled style="opacity:0.4;cursor:not-allowed"') + '>' + (canBuy?'Comprar':'Sin fondos') + '</button>' +
+        '</div></div>';
+    }).join('');
+
+  } else if (marketTab === 'sell') {
+    var myAgents = AGENTS.filter(function(a){return a.configured});
+    body.innerHTML = '<div class="am-sell-form">' +
+      '<label>Seleccioná un agente para vender</label>' +
+      '<select id="am-sell-agent">' +
+      (myAgents.length ? myAgents.map(function(a){return '<option value="' + a.id + '">' + a.emoji + ' ' + a.name + ' (Lv.' + a.level + ')</option>'}).join('') : '<option>No tenés agentes configurados</option>') +
+      '</select>' +
+      '<label>Precio (monedas)</label>' +
+      '<input id="am-sell-price" type="number" min="10" value="100" placeholder="100">' +
+      '<label>Tipo de venta</label>' +
+      '<select id="am-sell-type">' +
+      '<option value="direct">Venta directa</option>' +
+      '<option value="auction">Subasta (24 horas)</option>' +
+      '</select>' +
+      '<button class="am-listing-btn buy" onclick="listAgent()" style="width:100%;margin-top:6px">📤 Publicar en Marketplace</button>' +
+      '</div>' +
+      '<div class="am-empty" style="padding:16px;font-size:9px;color:#333">Los agentes vendidos se transfieren al comprador.<br>Recibirás las monedas al completarse la venta.</div>';
+
+  } else if (marketTab === 'auctions') {
+    var auctions = MARKET_LISTINGS.filter(function(l){return l.type==='auction'});
+    body.innerHTML = auctions.length ? auctions.map(function(l) {
+      return '<div class="am-listing am-auction">' +
+        '<div class="am-listing-icon" style="border-color:' + l.color + '33;background:' + l.color + '08">' + l.emoji + '</div>' +
+        '<div class="am-listing-info">' +
+        '<div class="am-listing-name" style="color:' + l.color + '">' + l.name + '</div>' +
+        '<div class="am-listing-desc">' + l.class + ' — por ' + l.seller + '</div>' +
+        '<div class="am-listing-stats">' + l.skills.map(function(s){return '<div class="am-listing-stat">' + s + '</div>'}).join('') +
+        '<div class="am-listing-stat">Lv.' + l.level + '</div></div></div>' +
+        '<div style="text-align:right">' +
+        '<div class="am-listing-price">🪙 ' + l.currentBid + '</div>' +
+        '<div class="am-auction-timer">⏱ ' + l.endsIn + ' · ' + l.bids + ' pujas</div>' +
+        '<button class="am-listing-btn bid" onclick="bidAgent(\'' + l.id + '\')">🔨 Pujar</button>' +
+        '</div></div>';
+    }).join('') : '<div class="am-empty">No hay subastas activas</div>';
+
+  } else if (marketTab === 'my') {
+    body.innerHTML = '<div class="am-empty">📋 Tus ofertas activas aparecerán aquí<br><br><span style="font-size:9px;color:#333">Publicá un agente en la pestaña "Vender"</span></div>';
+  }
+}
+
+function buyAgent(listingId) {
+  var listing = MARKET_LISTINGS.find(function(l){return l.id === listingId});
+  if (!listing) return;
+  if (COINS < listing.price) { showToast('No tenés suficientes monedas 🪙', '#ff4444'); return; }
+
+  COINS -= listing.price;
+  updateCoinsDisplay();
+
+  // Create agent from listing
+  var newAgent = {
+    id: 'bought_' + Date.now(),
+    name: listing.name,
+    emoji: listing.emoji,
+    class: listing.class,
+    color: listing.color,
+    level: listing.level,
+    xp: 0, xpMax: listing.level * 250,
+    status: 'idle', statusText: 'Recién adquirido',
+    configured: true,
+    skinColor: '#e8b88a', hairColor: '#2a1a0a', shirtColor: listing.color,
+    pantsColor: '#1a1a3a', shoeColor: '#222222', hairStyle: 'short', accessory: 'none',
+    stats: {}, skills: listing.skills.map(function(s){return {cat:'Skills',items:[{name:s,icon:'⚡',desc:s,lvl:3,max:5,color:listing.color}]}}),
+    equipment: [], currentTask: {name:'Sin tarea',detail:'Configuralo con ⚙️',progress:0},
+    log: [{time:new Date().toLocaleTimeString('es-AR',{hour:'2-digit',minute:'2-digit'}),text:'Comprado en marketplace',type:'s'}],
+    deskTile: {x:2+Math.floor(Math.random()*5), y:2+Math.floor(Math.random()*5)}
+  };
+
+  AGENTS.push(hydrateAgent(newAgent));
+  MARKET_LISTINGS = MARKET_LISTINGS.filter(function(l){return l.id !== listingId});
+  updCards();
+  renderMarket();
+  if (!isTestWorld) saveUserState();
+  showToast('🎉 ' + listing.name + ' comprado por 🪙' + listing.price, '#00ff88');
+}
+
+function bidAgent(listingId) {
+  var listing = MARKET_LISTINGS.find(function(l){return l.id === listingId});
+  if (!listing) return;
+  var minBid = (listing.currentBid || 0) + 10;
+  var bid = parseInt(prompt('Ingresá tu puja (mínimo 🪙' + minBid + '):', minBid));
+  if (!bid || bid < minBid) { showToast('Puja mínima: 🪙' + minBid, '#ff4444'); return; }
+  if (COINS < bid) { showToast('No tenés suficientes monedas', '#ff4444'); return; }
+  listing.currentBid = bid;
+  listing.bids = (listing.bids||0) + 1;
+  renderMarket();
+  showToast('🔨 Puja de 🪙' + bid + ' registrada en ' + listing.name, '#ffcc00');
+}
+
+function listAgent() {
+  var sel = document.getElementById('am-sell-agent');
+  var priceEl = document.getElementById('am-sell-price');
+  var typeEl = document.getElementById('am-sell-type');
+  if (!sel || !sel.value) return;
+  var a = AGENTS.find(function(x){return x.id === sel.value});
+  if (!a) return;
+  var price = parseInt(priceEl.value) || 100;
+
+  showToast('📤 ' + a.name + ' publicado por 🪙' + price + ' — Próximamente con Supabase', '#ffcc00');
+  switchMarketTab('my', document.querySelectorAll('.am-tab')[3]);
+}
+
+
+// ====== ROOM CHAT ======
+var chatMessages = [];
+var MAX_CHAT = 50;
+
+function sendChatMessage() {
+  var input = document.getElementById('chat-input');
+  var text = input.value.trim();
+  if (!text) return;
+  input.value = '';
+
+  var user = currentUser ? currentUser.username : 'Anon';
+  var msg = {
+    user: user,
+    text: text,
+    time: new Date().toLocaleTimeString('es-AR', {hour:'2-digit', minute:'2-digit'}),
+    color: '#00ff88'
+  };
+  chatMessages.unshift(msg);
+  if (chatMessages.length > MAX_CHAT) chatMessages.pop();
+  renderChat();
+
+  // Also show as bubble on a random agent
+  if (AGENTS.length > 0) {
+    var randomAgent = AGENTS[Math.floor(Math.random() * AGENTS.length)];
+    randomAgent.chatBubble = {text: text, timer: 240};
+  }
+}
+
+function renderChat() {
+  var el = document.getElementById('chat-messages');
+  el.innerHTML = chatMessages.slice(0, 20).map(function(m) {
+    return '<div class="chat-msg">' +
+      '<span class="chat-msg-user" style="color:' + m.color + '">' + m.user + '</span>' +
+      '<span class="chat-msg-time">' + m.time + '</span>' +
+      '<div class="chat-msg-text">' + m.text.replace(/</g,'&lt;') + '</div></div>';
+  }).join('');
+}
+
+// Chat enter key
+document.addEventListener('DOMContentLoaded', function() {
+  var ci = document.getElementById('chat-input');
+  if (ci) ci.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') sendChatMessage();
+  });
+});
+
+// Simulated chat messages from agents (in test mode)
+function tickChat() {
+  if (!isTestWorld) return;
+  if (Math.random() < 0.003 && AGENTS.length > 0) {
+    var a = AGENTS[Math.floor(Math.random() * AGENTS.length)];
+    var msgs = ['¿Alguien revisó el PR?', 'Deploy en 5 min', 'LGTM 👍', 'Necesito café ☕', 'Bug encontrado en prod 🐛', 'Sprint terminado 🎉', 'Quién hace code review?', 'Merge conflict otra vez...', 'Tests pasando ✅', 'Documentación actualizada'];
+    var text = msgs[Math.floor(Math.random() * msgs.length)];
+    chatMessages.unshift({user: a.name, text: text, time: new Date().toLocaleTimeString('es-AR',{hour:'2-digit',minute:'2-digit'}), color: a.color});
+    if (chatMessages.length > MAX_CHAT) chatMessages.pop();
+    renderChat();
+  }
+}
 // ====== AGENT CONFIG + WEBHOOKS ======
 var configAgent = null;
 
@@ -3744,7 +4032,7 @@ C.addEventListener('touchstart',e=>{if(e.touches.length===1){drag=true;dm=false;
 C.addEventListener('touchmove',e=>{e.preventDefault();if(e.touches.length===1&&drag){const dx=e.touches[0].clientX-dsx,dy=e.touches[0].clientY-dsy;if(Math.abs(dx)>3||Math.abs(dy)>3)dm=true;cx=csx+dx/zm;cy=csy+dy/zm}},{passive:false});
 C.addEventListener('touchend',e=>{if(!dm&&e.changedTouches.length===1){const t=e.changedTouches[0];const a=getAt(t.clientX,t.clientY);if(a){showCtxMenu(a,t.clientX,t.clientY)}else{closeCtxMenu();hideAgentInfo()}}drag=false;dm=false});
 document.addEventListener('keydown',e=>{
-  if(e.key==='Escape'){if(onboardActive)return;if(configAgent){closeAgentConfig();return;}if(navOpen){closeNavigator();return;}closeShop();if(document.getElementById('inv-modal').classList.contains('open'))closeInventory();else if(appEditorOpen)closeAppEditor();else if(document.getElementById('rpg-modal').classList.contains('open'))closeSheet();else if(document.getElementById('ctx-menu').classList.contains('open'))closeCtxMenu();else{hideAgentInfo();hideFurnInfo()}}
+  if(e.key==='Escape'){if(onboardActive)return;if(configAgent){closeAgentConfig();return;}if(document.getElementById('agent-market').classList.contains('open')){closeMarket();return;}if(navOpen){closeNavigator();return;}closeShop();if(document.getElementById('inv-modal').classList.contains('open'))closeInventory();else if(appEditorOpen)closeAppEditor();else if(document.getElementById('rpg-modal').classList.contains('open'))closeSheet();else if(document.getElementById('ctx-menu').classList.contains('open'))closeCtxMenu();else{hideAgentInfo();hideFurnInfo()}}
   if(e.key>='1'&&e.key<='5'){const a=AGENTS[parseInt(e.key)-1];if(a)showAgentInfo(a)}
   if(e.key==='Delete'&&editMode&&dragFurn){
     const idx=FURN.indexOf(dragFurn);
@@ -3905,7 +4193,7 @@ function render(){
   });
 }
 
-function loop(){tk++;updateAgents();tickCoins();if(tk%3600===0)tickWebhooks();
+function loop(){tk++;updateAgents();tickCoins();if(tk%3600===0)tickWebhooks();tickChat();
   // Habbo loading indicator
   const _hlel=document.getElementById('habbo-loading');
   if(_hlel){
