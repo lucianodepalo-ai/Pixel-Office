@@ -23,7 +23,21 @@ export default function AuthPage() {
       setError(error.message);
       return;
     }
-    router.push("/lobby");
+    // Existing user → check if they have agents, go to select or lobby
+    const { data: { session: loginSession } } = await supabase.auth.getSession();
+    if (loginSession) {
+      const { count } = await supabase
+        .from('agents')
+        .select('id', { count: 'exact', head: true })
+        .eq('owner_id', loginSession.user.id);
+      if (count && count > 0) {
+        router.push("/select-agent");
+      } else {
+        router.push("/create-agent?welcome=1");
+      }
+    } else {
+      router.push("/lobby");
+    }
   }
 
   async function handleRegister() {
@@ -47,7 +61,8 @@ export default function AuthPage() {
       setError(error.message);
       return;
     }
-    router.push("/lobby");
+    // New user → create first agent
+    router.push("/create-agent?welcome=1");
   }
 
   return (

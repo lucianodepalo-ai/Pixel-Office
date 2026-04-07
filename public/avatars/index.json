@@ -1,0 +1,1602 @@
+{
+  "analyst": {
+    "id": "analyst",
+    "name": "Analyst",
+    "description": "Business analyst, formal",
+    "figure": "hr-893-31.hd-600-1.ch-3030-82.lg-3290-110.sh-3068-110",
+    "category": "data",
+    "sprites": {
+      "total": 58,
+      "std": [
+        "std_d0.png",
+        "std_d1.png",
+        "std_d2.png",
+        "std_d3.png",
+        "std_d4.png",
+        "std_d5.png",
+        "std_d6.png",
+        "std_d7.png"
+      ],
+      "sit": [
+        "sit_d0.png",
+        "sit_d2.png",
+        "sit_d4.png",
+        "sit_d6.png"
+      ],
+      "wlk": [
+        "wlk_d0_f0.png",
+        "wlk_d0_f1.png",
+        "wlk_d0_f2.png",
+        "wlk_d0_f3.png",
+        "wlk_d1_f0.png",
+        "wlk_d1_f1.png",
+        "wlk_d1_f2.png",
+        "wlk_d1_f3.png",
+        "wlk_d2_f0.png",
+        "wlk_d2_f1.png",
+        "wlk_d2_f2.png",
+        "wlk_d2_f3.png",
+        "wlk_d3_f0.png",
+        "wlk_d3_f1.png",
+        "wlk_d3_f2.png",
+        "wlk_d3_f3.png",
+        "wlk_d4_f0.png",
+        "wlk_d4_f1.png",
+        "wlk_d4_f2.png",
+        "wlk_d4_f3.png",
+        "wlk_d5_f0.png",
+        "wlk_d5_f1.png",
+        "wlk_d5_f2.png",
+        "wlk_d5_f3.png",
+        "wlk_d6_f0.png",
+        "wlk_d6_f1.png",
+        "wlk_d6_f2.png",
+        "wlk_d6_f3.png",
+        "wlk_d7_f0.png",
+        "wlk_d7_f1.png",
+        "wlk_d7_f2.png",
+        "wlk_d7_f3.png"
+      ],
+      "wav": [
+        "wav_d0.png",
+        "wav_d1.png",
+        "wav_d2.png",
+        "wav_d3.png",
+        "wav_d4.png",
+        "wav_d5.png",
+        "wav_d6.png",
+        "wav_d7.png"
+      ],
+      "gestures": [
+        "gest_agr_d2.png",
+        "gest_sad_d2.png",
+        "gest_sml_d2.png",
+        "gest_spk_d2.png",
+        "gest_srp_d2.png"
+      ],
+      "drk": [
+        "drk_d2.png"
+      ]
+    }
+  },
+  "backend": {
+    "id": "backend",
+    "name": "Backend Dev",
+    "description": "Backend engineer, minimal style",
+    "figure": "hr-3163-45.hd-180-14.ch-3185-82.lg-3116-82.sh-3115-110",
+    "category": "development",
+    "sprites": {
+      "total": 58,
+      "std": [
+        "std_d0.png",
+        "std_d1.png",
+        "std_d2.png",
+        "std_d3.png",
+        "std_d4.png",
+        "std_d5.png",
+        "std_d6.png",
+        "std_d7.png"
+      ],
+      "sit": [
+        "sit_d0.png",
+        "sit_d2.png",
+        "sit_d4.png",
+        "sit_d6.png"
+      ],
+      "wlk": [
+        "wlk_d0_f0.png",
+        "wlk_d0_f1.png",
+        "wlk_d0_f2.png",
+        "wlk_d0_f3.png",
+        "wlk_d1_f0.png",
+        "wlk_d1_f1.png",
+        "wlk_d1_f2.png",
+        "wlk_d1_f3.png",
+        "wlk_d2_f0.png",
+        "wlk_d2_f1.png",
+        "wlk_d2_f2.png",
+        "wlk_d2_f3.png",
+        "wlk_d3_f0.png",
+        "wlk_d3_f1.png",
+        "wlk_d3_f2.png",
+        "wlk_d3_f3.png",
+        "wlk_d4_f0.png",
+        "wlk_d4_f1.png",
+        "wlk_d4_f2.png",
+        "wlk_d4_f3.png",
+        "wlk_d5_f0.png",
+        "wlk_d5_f1.png",
+        "wlk_d5_f2.png",
+        "wlk_d5_f3.png",
+        "wlk_d6_f0.png",
+        "wlk_d6_f1.png",
+        "wlk_d6_f2.png",
+        "wlk_d6_f3.png",
+        "wlk_d7_f0.png",
+        "wlk_d7_f1.png",
+        "wlk_d7_f2.png",
+        "wlk_d7_f3.png"
+      ],
+      "wav": [
+        "wav_d0.png",
+        "wav_d1.png",
+        "wav_d2.png",
+        "wav_d3.png",
+        "wav_d4.png",
+        "wav_d5.png",
+        "wav_d6.png",
+        "wav_d7.png"
+      ],
+      "gestures": [
+        "gest_agr_d2.png",
+        "gest_sad_d2.png",
+        "gest_sml_d2.png",
+        "gest_spk_d2.png",
+        "gest_srp_d2.png"
+      ],
+      "drk": [
+        "drk_d2.png"
+      ]
+    }
+  },
+  "bot": {
+    "id": "bot",
+    "name": "AI Bot",
+    "description": "The AI assistant itself, distinctive look",
+    "figure": "hr-155-61.hd-208-14.ch-3185-110.lg-3116-110.sh-3115-110.he-1601-62",
+    "category": "specialized",
+    "sprites": {
+      "total": 58,
+      "std": [
+        "std_d0.png",
+        "std_d1.png",
+        "std_d2.png",
+        "std_d3.png",
+        "std_d4.png",
+        "std_d5.png",
+        "std_d6.png",
+        "std_d7.png"
+      ],
+      "sit": [
+        "sit_d0.png",
+        "sit_d2.png",
+        "sit_d4.png",
+        "sit_d6.png"
+      ],
+      "wlk": [
+        "wlk_d0_f0.png",
+        "wlk_d0_f1.png",
+        "wlk_d0_f2.png",
+        "wlk_d0_f3.png",
+        "wlk_d1_f0.png",
+        "wlk_d1_f1.png",
+        "wlk_d1_f2.png",
+        "wlk_d1_f3.png",
+        "wlk_d2_f0.png",
+        "wlk_d2_f1.png",
+        "wlk_d2_f2.png",
+        "wlk_d2_f3.png",
+        "wlk_d3_f0.png",
+        "wlk_d3_f1.png",
+        "wlk_d3_f2.png",
+        "wlk_d3_f3.png",
+        "wlk_d4_f0.png",
+        "wlk_d4_f1.png",
+        "wlk_d4_f2.png",
+        "wlk_d4_f3.png",
+        "wlk_d5_f0.png",
+        "wlk_d5_f1.png",
+        "wlk_d5_f2.png",
+        "wlk_d5_f3.png",
+        "wlk_d6_f0.png",
+        "wlk_d6_f1.png",
+        "wlk_d6_f2.png",
+        "wlk_d6_f3.png",
+        "wlk_d7_f0.png",
+        "wlk_d7_f1.png",
+        "wlk_d7_f2.png",
+        "wlk_d7_f3.png"
+      ],
+      "wav": [
+        "wav_d0.png",
+        "wav_d1.png",
+        "wav_d2.png",
+        "wav_d3.png",
+        "wav_d4.png",
+        "wav_d5.png",
+        "wav_d6.png",
+        "wav_d7.png"
+      ],
+      "gestures": [
+        "gest_agr_d2.png",
+        "gest_sad_d2.png",
+        "gest_sml_d2.png",
+        "gest_spk_d2.png",
+        "gest_srp_d2.png"
+      ],
+      "drk": [
+        "drk_d2.png"
+      ]
+    }
+  },
+  "ceo": {
+    "id": "ceo",
+    "name": "CEO",
+    "description": "Executive leader, formal suit",
+    "figure": "hr-893-45.hd-180-1.ch-3185-110.lg-3116-110.sh-3115-110.ca-3187-110",
+    "category": "leadership",
+    "sprites": {
+      "total": 58,
+      "std": [
+        "std_d0.png",
+        "std_d1.png",
+        "std_d2.png",
+        "std_d3.png",
+        "std_d4.png",
+        "std_d5.png",
+        "std_d6.png",
+        "std_d7.png"
+      ],
+      "sit": [
+        "sit_d0.png",
+        "sit_d2.png",
+        "sit_d4.png",
+        "sit_d6.png"
+      ],
+      "wlk": [
+        "wlk_d0_f0.png",
+        "wlk_d0_f1.png",
+        "wlk_d0_f2.png",
+        "wlk_d0_f3.png",
+        "wlk_d1_f0.png",
+        "wlk_d1_f1.png",
+        "wlk_d1_f2.png",
+        "wlk_d1_f3.png",
+        "wlk_d2_f0.png",
+        "wlk_d2_f1.png",
+        "wlk_d2_f2.png",
+        "wlk_d2_f3.png",
+        "wlk_d3_f0.png",
+        "wlk_d3_f1.png",
+        "wlk_d3_f2.png",
+        "wlk_d3_f3.png",
+        "wlk_d4_f0.png",
+        "wlk_d4_f1.png",
+        "wlk_d4_f2.png",
+        "wlk_d4_f3.png",
+        "wlk_d5_f0.png",
+        "wlk_d5_f1.png",
+        "wlk_d5_f2.png",
+        "wlk_d5_f3.png",
+        "wlk_d6_f0.png",
+        "wlk_d6_f1.png",
+        "wlk_d6_f2.png",
+        "wlk_d6_f3.png",
+        "wlk_d7_f0.png",
+        "wlk_d7_f1.png",
+        "wlk_d7_f2.png",
+        "wlk_d7_f3.png"
+      ],
+      "wav": [
+        "wav_d0.png",
+        "wav_d1.png",
+        "wav_d2.png",
+        "wav_d3.png",
+        "wav_d4.png",
+        "wav_d5.png",
+        "wav_d6.png",
+        "wav_d7.png"
+      ],
+      "gestures": [
+        "gest_agr_d2.png",
+        "gest_sad_d2.png",
+        "gest_sml_d2.png",
+        "gest_spk_d2.png",
+        "gest_srp_d2.png"
+      ],
+      "drk": [
+        "drk_d2.png"
+      ]
+    }
+  },
+  "creative": {
+    "id": "creative",
+    "name": "Creative Director",
+    "description": "Bold creative style",
+    "figure": "hr-3163-61.hd-180-2.ch-3185-75.lg-3116-82.sh-3115-75.he-1601-62",
+    "category": "creative",
+    "sprites": {
+      "total": 58,
+      "std": [
+        "std_d0.png",
+        "std_d1.png",
+        "std_d2.png",
+        "std_d3.png",
+        "std_d4.png",
+        "std_d5.png",
+        "std_d6.png",
+        "std_d7.png"
+      ],
+      "sit": [
+        "sit_d0.png",
+        "sit_d2.png",
+        "sit_d4.png",
+        "sit_d6.png"
+      ],
+      "wlk": [
+        "wlk_d0_f0.png",
+        "wlk_d0_f1.png",
+        "wlk_d0_f2.png",
+        "wlk_d0_f3.png",
+        "wlk_d1_f0.png",
+        "wlk_d1_f1.png",
+        "wlk_d1_f2.png",
+        "wlk_d1_f3.png",
+        "wlk_d2_f0.png",
+        "wlk_d2_f1.png",
+        "wlk_d2_f2.png",
+        "wlk_d2_f3.png",
+        "wlk_d3_f0.png",
+        "wlk_d3_f1.png",
+        "wlk_d3_f2.png",
+        "wlk_d3_f3.png",
+        "wlk_d4_f0.png",
+        "wlk_d4_f1.png",
+        "wlk_d4_f2.png",
+        "wlk_d4_f3.png",
+        "wlk_d5_f0.png",
+        "wlk_d5_f1.png",
+        "wlk_d5_f2.png",
+        "wlk_d5_f3.png",
+        "wlk_d6_f0.png",
+        "wlk_d6_f1.png",
+        "wlk_d6_f2.png",
+        "wlk_d6_f3.png",
+        "wlk_d7_f0.png",
+        "wlk_d7_f1.png",
+        "wlk_d7_f2.png",
+        "wlk_d7_f3.png"
+      ],
+      "wav": [
+        "wav_d0.png",
+        "wav_d1.png",
+        "wav_d2.png",
+        "wav_d3.png",
+        "wav_d4.png",
+        "wav_d5.png",
+        "wav_d6.png",
+        "wav_d7.png"
+      ],
+      "gestures": [
+        "gest_agr_d2.png",
+        "gest_sad_d2.png",
+        "gest_sml_d2.png",
+        "gest_spk_d2.png",
+        "gest_srp_d2.png"
+      ],
+      "drk": [
+        "drk_d2.png"
+      ]
+    }
+  },
+  "cto": {
+    "id": "cto",
+    "name": "CTO",
+    "description": "Tech lead, smart casual with glasses",
+    "figure": "hr-831-37.hd-180-2.ch-3030-110.lg-3290-82.sh-3068-91.fa-1201-62",
+    "category": "leadership",
+    "sprites": {
+      "total": 58,
+      "std": [
+        "std_d0.png",
+        "std_d1.png",
+        "std_d2.png",
+        "std_d3.png",
+        "std_d4.png",
+        "std_d5.png",
+        "std_d6.png",
+        "std_d7.png"
+      ],
+      "sit": [
+        "sit_d0.png",
+        "sit_d2.png",
+        "sit_d4.png",
+        "sit_d6.png"
+      ],
+      "wlk": [
+        "wlk_d0_f0.png",
+        "wlk_d0_f1.png",
+        "wlk_d0_f2.png",
+        "wlk_d0_f3.png",
+        "wlk_d1_f0.png",
+        "wlk_d1_f1.png",
+        "wlk_d1_f2.png",
+        "wlk_d1_f3.png",
+        "wlk_d2_f0.png",
+        "wlk_d2_f1.png",
+        "wlk_d2_f2.png",
+        "wlk_d2_f3.png",
+        "wlk_d3_f0.png",
+        "wlk_d3_f1.png",
+        "wlk_d3_f2.png",
+        "wlk_d3_f3.png",
+        "wlk_d4_f0.png",
+        "wlk_d4_f1.png",
+        "wlk_d4_f2.png",
+        "wlk_d4_f3.png",
+        "wlk_d5_f0.png",
+        "wlk_d5_f1.png",
+        "wlk_d5_f2.png",
+        "wlk_d5_f3.png",
+        "wlk_d6_f0.png",
+        "wlk_d6_f1.png",
+        "wlk_d6_f2.png",
+        "wlk_d6_f3.png",
+        "wlk_d7_f0.png",
+        "wlk_d7_f1.png",
+        "wlk_d7_f2.png",
+        "wlk_d7_f3.png"
+      ],
+      "wav": [
+        "wav_d0.png",
+        "wav_d1.png",
+        "wav_d2.png",
+        "wav_d3.png",
+        "wav_d4.png",
+        "wav_d5.png",
+        "wav_d6.png",
+        "wav_d7.png"
+      ],
+      "gestures": [
+        "gest_agr_d2.png",
+        "gest_sad_d2.png",
+        "gest_sml_d2.png",
+        "gest_spk_d2.png",
+        "gest_srp_d2.png"
+      ],
+      "drk": [
+        "drk_d2.png"
+      ]
+    }
+  },
+  "data_scientist": {
+    "id": "data_scientist",
+    "name": "Data Scientist",
+    "description": "Analytical mind, glasses, neat look",
+    "figure": "hr-545-45.hd-600-2.ch-255-110.lg-280-110.sh-300-91.fa-1201-62",
+    "category": "data",
+    "sprites": {
+      "total": 58,
+      "std": [
+        "std_d0.png",
+        "std_d1.png",
+        "std_d2.png",
+        "std_d3.png",
+        "std_d4.png",
+        "std_d5.png",
+        "std_d6.png",
+        "std_d7.png"
+      ],
+      "sit": [
+        "sit_d0.png",
+        "sit_d2.png",
+        "sit_d4.png",
+        "sit_d6.png"
+      ],
+      "wlk": [
+        "wlk_d0_f0.png",
+        "wlk_d0_f1.png",
+        "wlk_d0_f2.png",
+        "wlk_d0_f3.png",
+        "wlk_d1_f0.png",
+        "wlk_d1_f1.png",
+        "wlk_d1_f2.png",
+        "wlk_d1_f3.png",
+        "wlk_d2_f0.png",
+        "wlk_d2_f1.png",
+        "wlk_d2_f2.png",
+        "wlk_d2_f3.png",
+        "wlk_d3_f0.png",
+        "wlk_d3_f1.png",
+        "wlk_d3_f2.png",
+        "wlk_d3_f3.png",
+        "wlk_d4_f0.png",
+        "wlk_d4_f1.png",
+        "wlk_d4_f2.png",
+        "wlk_d4_f3.png",
+        "wlk_d5_f0.png",
+        "wlk_d5_f1.png",
+        "wlk_d5_f2.png",
+        "wlk_d5_f3.png",
+        "wlk_d6_f0.png",
+        "wlk_d6_f1.png",
+        "wlk_d6_f2.png",
+        "wlk_d6_f3.png",
+        "wlk_d7_f0.png",
+        "wlk_d7_f1.png",
+        "wlk_d7_f2.png",
+        "wlk_d7_f3.png"
+      ],
+      "wav": [
+        "wav_d0.png",
+        "wav_d1.png",
+        "wav_d2.png",
+        "wav_d3.png",
+        "wav_d4.png",
+        "wav_d5.png",
+        "wav_d6.png",
+        "wav_d7.png"
+      ],
+      "gestures": [
+        "gest_agr_d2.png",
+        "gest_sad_d2.png",
+        "gest_sml_d2.png",
+        "gest_spk_d2.png",
+        "gest_srp_d2.png"
+      ],
+      "drk": [
+        "drk_d2.png"
+      ]
+    }
+  },
+  "designer": {
+    "id": "designer",
+    "name": "Designer",
+    "description": "UI/UX designer, creative look",
+    "figure": "hr-515-61.hd-600-14.ch-665-82.lg-710-75.sh-725-91",
+    "category": "creative",
+    "sprites": {
+      "total": 58,
+      "std": [
+        "std_d0.png",
+        "std_d1.png",
+        "std_d2.png",
+        "std_d3.png",
+        "std_d4.png",
+        "std_d5.png",
+        "std_d6.png",
+        "std_d7.png"
+      ],
+      "sit": [
+        "sit_d0.png",
+        "sit_d2.png",
+        "sit_d4.png",
+        "sit_d6.png"
+      ],
+      "wlk": [
+        "wlk_d0_f0.png",
+        "wlk_d0_f1.png",
+        "wlk_d0_f2.png",
+        "wlk_d0_f3.png",
+        "wlk_d1_f0.png",
+        "wlk_d1_f1.png",
+        "wlk_d1_f2.png",
+        "wlk_d1_f3.png",
+        "wlk_d2_f0.png",
+        "wlk_d2_f1.png",
+        "wlk_d2_f2.png",
+        "wlk_d2_f3.png",
+        "wlk_d3_f0.png",
+        "wlk_d3_f1.png",
+        "wlk_d3_f2.png",
+        "wlk_d3_f3.png",
+        "wlk_d4_f0.png",
+        "wlk_d4_f1.png",
+        "wlk_d4_f2.png",
+        "wlk_d4_f3.png",
+        "wlk_d5_f0.png",
+        "wlk_d5_f1.png",
+        "wlk_d5_f2.png",
+        "wlk_d5_f3.png",
+        "wlk_d6_f0.png",
+        "wlk_d6_f1.png",
+        "wlk_d6_f2.png",
+        "wlk_d6_f3.png",
+        "wlk_d7_f0.png",
+        "wlk_d7_f1.png",
+        "wlk_d7_f2.png",
+        "wlk_d7_f3.png"
+      ],
+      "wav": [
+        "wav_d0.png",
+        "wav_d1.png",
+        "wav_d2.png",
+        "wav_d3.png",
+        "wav_d4.png",
+        "wav_d5.png",
+        "wav_d6.png",
+        "wav_d7.png"
+      ],
+      "gestures": [
+        "gest_agr_d2.png",
+        "gest_sad_d2.png",
+        "gest_sml_d2.png",
+        "gest_spk_d2.png",
+        "gest_srp_d2.png"
+      ],
+      "drk": [
+        "drk_d2.png"
+      ]
+    }
+  },
+  "developer": {
+    "id": "developer",
+    "name": "Developer",
+    "description": "Full-stack dev, hoodie style",
+    "figure": "hr-155-31.hd-208-8.ch-255-75.lg-275-82.sh-295-91",
+    "category": "development",
+    "sprites": {
+      "total": 58,
+      "std": [
+        "std_d0.png",
+        "std_d1.png",
+        "std_d2.png",
+        "std_d3.png",
+        "std_d4.png",
+        "std_d5.png",
+        "std_d6.png",
+        "std_d7.png"
+      ],
+      "sit": [
+        "sit_d0.png",
+        "sit_d2.png",
+        "sit_d4.png",
+        "sit_d6.png"
+      ],
+      "wlk": [
+        "wlk_d0_f0.png",
+        "wlk_d0_f1.png",
+        "wlk_d0_f2.png",
+        "wlk_d0_f3.png",
+        "wlk_d1_f0.png",
+        "wlk_d1_f1.png",
+        "wlk_d1_f2.png",
+        "wlk_d1_f3.png",
+        "wlk_d2_f0.png",
+        "wlk_d2_f1.png",
+        "wlk_d2_f2.png",
+        "wlk_d2_f3.png",
+        "wlk_d3_f0.png",
+        "wlk_d3_f1.png",
+        "wlk_d3_f2.png",
+        "wlk_d3_f3.png",
+        "wlk_d4_f0.png",
+        "wlk_d4_f1.png",
+        "wlk_d4_f2.png",
+        "wlk_d4_f3.png",
+        "wlk_d5_f0.png",
+        "wlk_d5_f1.png",
+        "wlk_d5_f2.png",
+        "wlk_d5_f3.png",
+        "wlk_d6_f0.png",
+        "wlk_d6_f1.png",
+        "wlk_d6_f2.png",
+        "wlk_d6_f3.png",
+        "wlk_d7_f0.png",
+        "wlk_d7_f1.png",
+        "wlk_d7_f2.png",
+        "wlk_d7_f3.png"
+      ],
+      "wav": [
+        "wav_d0.png",
+        "wav_d1.png",
+        "wav_d2.png",
+        "wav_d3.png",
+        "wav_d4.png",
+        "wav_d5.png",
+        "wav_d6.png",
+        "wav_d7.png"
+      ],
+      "gestures": [
+        "gest_agr_d2.png",
+        "gest_sad_d2.png",
+        "gest_sml_d2.png",
+        "gest_spk_d2.png",
+        "gest_srp_d2.png"
+      ],
+      "drk": [
+        "drk_d2.png"
+      ]
+    }
+  },
+  "devops": {
+    "id": "devops",
+    "name": "DevOps",
+    "description": "Infrastructure engineer",
+    "figure": "hr-831-61.hd-180-1.ch-3030-75.lg-3290-110.sh-3068-110",
+    "category": "development",
+    "sprites": {
+      "total": 58,
+      "std": [
+        "std_d0.png",
+        "std_d1.png",
+        "std_d2.png",
+        "std_d3.png",
+        "std_d4.png",
+        "std_d5.png",
+        "std_d6.png",
+        "std_d7.png"
+      ],
+      "sit": [
+        "sit_d0.png",
+        "sit_d2.png",
+        "sit_d4.png",
+        "sit_d6.png"
+      ],
+      "wlk": [
+        "wlk_d0_f0.png",
+        "wlk_d0_f1.png",
+        "wlk_d0_f2.png",
+        "wlk_d0_f3.png",
+        "wlk_d1_f0.png",
+        "wlk_d1_f1.png",
+        "wlk_d1_f2.png",
+        "wlk_d1_f3.png",
+        "wlk_d2_f0.png",
+        "wlk_d2_f1.png",
+        "wlk_d2_f2.png",
+        "wlk_d2_f3.png",
+        "wlk_d3_f0.png",
+        "wlk_d3_f1.png",
+        "wlk_d3_f2.png",
+        "wlk_d3_f3.png",
+        "wlk_d4_f0.png",
+        "wlk_d4_f1.png",
+        "wlk_d4_f2.png",
+        "wlk_d4_f3.png",
+        "wlk_d5_f0.png",
+        "wlk_d5_f1.png",
+        "wlk_d5_f2.png",
+        "wlk_d5_f3.png",
+        "wlk_d6_f0.png",
+        "wlk_d6_f1.png",
+        "wlk_d6_f2.png",
+        "wlk_d6_f3.png",
+        "wlk_d7_f0.png",
+        "wlk_d7_f1.png",
+        "wlk_d7_f2.png",
+        "wlk_d7_f3.png"
+      ],
+      "wav": [
+        "wav_d0.png",
+        "wav_d1.png",
+        "wav_d2.png",
+        "wav_d3.png",
+        "wav_d4.png",
+        "wav_d5.png",
+        "wav_d6.png",
+        "wav_d7.png"
+      ],
+      "gestures": [
+        "gest_agr_d2.png",
+        "gest_sad_d2.png",
+        "gest_sml_d2.png",
+        "gest_spk_d2.png",
+        "gest_srp_d2.png"
+      ],
+      "drk": [
+        "drk_d2.png"
+      ]
+    }
+  },
+  "frontend": {
+    "id": "frontend",
+    "name": "Frontend Dev",
+    "description": "Creative frontend developer",
+    "figure": "hr-515-37.hd-600-1.ch-665-75.lg-710-82.sh-725-91",
+    "category": "development",
+    "sprites": {
+      "total": 58,
+      "std": [
+        "std_d0.png",
+        "std_d1.png",
+        "std_d2.png",
+        "std_d3.png",
+        "std_d4.png",
+        "std_d5.png",
+        "std_d6.png",
+        "std_d7.png"
+      ],
+      "sit": [
+        "sit_d0.png",
+        "sit_d2.png",
+        "sit_d4.png",
+        "sit_d6.png"
+      ],
+      "wlk": [
+        "wlk_d0_f0.png",
+        "wlk_d0_f1.png",
+        "wlk_d0_f2.png",
+        "wlk_d0_f3.png",
+        "wlk_d1_f0.png",
+        "wlk_d1_f1.png",
+        "wlk_d1_f2.png",
+        "wlk_d1_f3.png",
+        "wlk_d2_f0.png",
+        "wlk_d2_f1.png",
+        "wlk_d2_f2.png",
+        "wlk_d2_f3.png",
+        "wlk_d3_f0.png",
+        "wlk_d3_f1.png",
+        "wlk_d3_f2.png",
+        "wlk_d3_f3.png",
+        "wlk_d4_f0.png",
+        "wlk_d4_f1.png",
+        "wlk_d4_f2.png",
+        "wlk_d4_f3.png",
+        "wlk_d5_f0.png",
+        "wlk_d5_f1.png",
+        "wlk_d5_f2.png",
+        "wlk_d5_f3.png",
+        "wlk_d6_f0.png",
+        "wlk_d6_f1.png",
+        "wlk_d6_f2.png",
+        "wlk_d6_f3.png",
+        "wlk_d7_f0.png",
+        "wlk_d7_f1.png",
+        "wlk_d7_f2.png",
+        "wlk_d7_f3.png"
+      ],
+      "wav": [
+        "wav_d0.png",
+        "wav_d1.png",
+        "wav_d2.png",
+        "wav_d3.png",
+        "wav_d4.png",
+        "wav_d5.png",
+        "wav_d6.png",
+        "wav_d7.png"
+      ],
+      "gestures": [
+        "gest_agr_d2.png",
+        "gest_sad_d2.png",
+        "gest_sml_d2.png",
+        "gest_spk_d2.png",
+        "gest_srp_d2.png"
+      ],
+      "drk": [
+        "drk_d2.png"
+      ]
+    }
+  },
+  "hr": {
+    "id": "hr",
+    "name": "HR Manager",
+    "description": "Human resources, approachable",
+    "figure": "hr-893-37.hd-600-14.ch-3030-75.lg-3290-75.sh-3068-91",
+    "category": "operations",
+    "sprites": {
+      "total": 58,
+      "std": [
+        "std_d0.png",
+        "std_d1.png",
+        "std_d2.png",
+        "std_d3.png",
+        "std_d4.png",
+        "std_d5.png",
+        "std_d6.png",
+        "std_d7.png"
+      ],
+      "sit": [
+        "sit_d0.png",
+        "sit_d2.png",
+        "sit_d4.png",
+        "sit_d6.png"
+      ],
+      "wlk": [
+        "wlk_d0_f0.png",
+        "wlk_d0_f1.png",
+        "wlk_d0_f2.png",
+        "wlk_d0_f3.png",
+        "wlk_d1_f0.png",
+        "wlk_d1_f1.png",
+        "wlk_d1_f2.png",
+        "wlk_d1_f3.png",
+        "wlk_d2_f0.png",
+        "wlk_d2_f1.png",
+        "wlk_d2_f2.png",
+        "wlk_d2_f3.png",
+        "wlk_d3_f0.png",
+        "wlk_d3_f1.png",
+        "wlk_d3_f2.png",
+        "wlk_d3_f3.png",
+        "wlk_d4_f0.png",
+        "wlk_d4_f1.png",
+        "wlk_d4_f2.png",
+        "wlk_d4_f3.png",
+        "wlk_d5_f0.png",
+        "wlk_d5_f1.png",
+        "wlk_d5_f2.png",
+        "wlk_d5_f3.png",
+        "wlk_d6_f0.png",
+        "wlk_d6_f1.png",
+        "wlk_d6_f2.png",
+        "wlk_d6_f3.png",
+        "wlk_d7_f0.png",
+        "wlk_d7_f1.png",
+        "wlk_d7_f2.png",
+        "wlk_d7_f3.png"
+      ],
+      "wav": [
+        "wav_d0.png",
+        "wav_d1.png",
+        "wav_d2.png",
+        "wav_d3.png",
+        "wav_d4.png",
+        "wav_d5.png",
+        "wav_d6.png",
+        "wav_d7.png"
+      ],
+      "gestures": [
+        "gest_agr_d2.png",
+        "gest_sad_d2.png",
+        "gest_sml_d2.png",
+        "gest_spk_d2.png",
+        "gest_srp_d2.png"
+      ],
+      "drk": [
+        "drk_d2.png"
+      ]
+    }
+  },
+  "intern": {
+    "id": "intern",
+    "name": "Intern",
+    "description": "New intern, casual and eager",
+    "figure": "hr-3163-31.hd-180-1.ch-255-75.lg-275-82.sh-295-91.he-1601-62",
+    "category": "specialized",
+    "sprites": {
+      "total": 58,
+      "std": [
+        "std_d0.png",
+        "std_d1.png",
+        "std_d2.png",
+        "std_d3.png",
+        "std_d4.png",
+        "std_d5.png",
+        "std_d6.png",
+        "std_d7.png"
+      ],
+      "sit": [
+        "sit_d0.png",
+        "sit_d2.png",
+        "sit_d4.png",
+        "sit_d6.png"
+      ],
+      "wlk": [
+        "wlk_d0_f0.png",
+        "wlk_d0_f1.png",
+        "wlk_d0_f2.png",
+        "wlk_d0_f3.png",
+        "wlk_d1_f0.png",
+        "wlk_d1_f1.png",
+        "wlk_d1_f2.png",
+        "wlk_d1_f3.png",
+        "wlk_d2_f0.png",
+        "wlk_d2_f1.png",
+        "wlk_d2_f2.png",
+        "wlk_d2_f3.png",
+        "wlk_d3_f0.png",
+        "wlk_d3_f1.png",
+        "wlk_d3_f2.png",
+        "wlk_d3_f3.png",
+        "wlk_d4_f0.png",
+        "wlk_d4_f1.png",
+        "wlk_d4_f2.png",
+        "wlk_d4_f3.png",
+        "wlk_d5_f0.png",
+        "wlk_d5_f1.png",
+        "wlk_d5_f2.png",
+        "wlk_d5_f3.png",
+        "wlk_d6_f0.png",
+        "wlk_d6_f1.png",
+        "wlk_d6_f2.png",
+        "wlk_d6_f3.png",
+        "wlk_d7_f0.png",
+        "wlk_d7_f1.png",
+        "wlk_d7_f2.png",
+        "wlk_d7_f3.png"
+      ],
+      "wav": [
+        "wav_d0.png",
+        "wav_d1.png",
+        "wav_d2.png",
+        "wav_d3.png",
+        "wav_d4.png",
+        "wav_d5.png",
+        "wav_d6.png",
+        "wav_d7.png"
+      ],
+      "gestures": [
+        "gest_agr_d2.png",
+        "gest_sad_d2.png",
+        "gest_sml_d2.png",
+        "gest_spk_d2.png",
+        "gest_srp_d2.png"
+      ],
+      "drk": [
+        "drk_d2.png"
+      ]
+    }
+  },
+  "manager": {
+    "id": "manager",
+    "name": "Manager",
+    "description": "Project manager, business casual",
+    "figure": "hr-545-31.hd-600-1.ch-255-75.lg-280-82.sh-300-91",
+    "category": "leadership",
+    "sprites": {
+      "total": 58,
+      "std": [
+        "std_d0.png",
+        "std_d1.png",
+        "std_d2.png",
+        "std_d3.png",
+        "std_d4.png",
+        "std_d5.png",
+        "std_d6.png",
+        "std_d7.png"
+      ],
+      "sit": [
+        "sit_d0.png",
+        "sit_d2.png",
+        "sit_d4.png",
+        "sit_d6.png"
+      ],
+      "wlk": [
+        "wlk_d0_f0.png",
+        "wlk_d0_f1.png",
+        "wlk_d0_f2.png",
+        "wlk_d0_f3.png",
+        "wlk_d1_f0.png",
+        "wlk_d1_f1.png",
+        "wlk_d1_f2.png",
+        "wlk_d1_f3.png",
+        "wlk_d2_f0.png",
+        "wlk_d2_f1.png",
+        "wlk_d2_f2.png",
+        "wlk_d2_f3.png",
+        "wlk_d3_f0.png",
+        "wlk_d3_f1.png",
+        "wlk_d3_f2.png",
+        "wlk_d3_f3.png",
+        "wlk_d4_f0.png",
+        "wlk_d4_f1.png",
+        "wlk_d4_f2.png",
+        "wlk_d4_f3.png",
+        "wlk_d5_f0.png",
+        "wlk_d5_f1.png",
+        "wlk_d5_f2.png",
+        "wlk_d5_f3.png",
+        "wlk_d6_f0.png",
+        "wlk_d6_f1.png",
+        "wlk_d6_f2.png",
+        "wlk_d6_f3.png",
+        "wlk_d7_f0.png",
+        "wlk_d7_f1.png",
+        "wlk_d7_f2.png",
+        "wlk_d7_f3.png"
+      ],
+      "wav": [
+        "wav_d0.png",
+        "wav_d1.png",
+        "wav_d2.png",
+        "wav_d3.png",
+        "wav_d4.png",
+        "wav_d5.png",
+        "wav_d6.png",
+        "wav_d7.png"
+      ],
+      "gestures": [
+        "gest_agr_d2.png",
+        "gest_sad_d2.png",
+        "gest_sml_d2.png",
+        "gest_spk_d2.png",
+        "gest_srp_d2.png"
+      ],
+      "drk": [
+        "drk_d2.png"
+      ]
+    }
+  },
+  "marketing": {
+    "id": "marketing",
+    "name": "Marketing",
+    "description": "Marketing specialist, vibrant",
+    "figure": "hr-515-31.hd-180-1.ch-665-110.lg-710-82.sh-725-75",
+    "category": "operations",
+    "sprites": {
+      "total": 58,
+      "std": [
+        "std_d0.png",
+        "std_d1.png",
+        "std_d2.png",
+        "std_d3.png",
+        "std_d4.png",
+        "std_d5.png",
+        "std_d6.png",
+        "std_d7.png"
+      ],
+      "sit": [
+        "sit_d0.png",
+        "sit_d2.png",
+        "sit_d4.png",
+        "sit_d6.png"
+      ],
+      "wlk": [
+        "wlk_d0_f0.png",
+        "wlk_d0_f1.png",
+        "wlk_d0_f2.png",
+        "wlk_d0_f3.png",
+        "wlk_d1_f0.png",
+        "wlk_d1_f1.png",
+        "wlk_d1_f2.png",
+        "wlk_d1_f3.png",
+        "wlk_d2_f0.png",
+        "wlk_d2_f1.png",
+        "wlk_d2_f2.png",
+        "wlk_d2_f3.png",
+        "wlk_d3_f0.png",
+        "wlk_d3_f1.png",
+        "wlk_d3_f2.png",
+        "wlk_d3_f3.png",
+        "wlk_d4_f0.png",
+        "wlk_d4_f1.png",
+        "wlk_d4_f2.png",
+        "wlk_d4_f3.png",
+        "wlk_d5_f0.png",
+        "wlk_d5_f1.png",
+        "wlk_d5_f2.png",
+        "wlk_d5_f3.png",
+        "wlk_d6_f0.png",
+        "wlk_d6_f1.png",
+        "wlk_d6_f2.png",
+        "wlk_d6_f3.png",
+        "wlk_d7_f0.png",
+        "wlk_d7_f1.png",
+        "wlk_d7_f2.png",
+        "wlk_d7_f3.png"
+      ],
+      "wav": [
+        "wav_d0.png",
+        "wav_d1.png",
+        "wav_d2.png",
+        "wav_d3.png",
+        "wav_d4.png",
+        "wav_d5.png",
+        "wav_d6.png",
+        "wav_d7.png"
+      ],
+      "gestures": [
+        "gest_agr_d2.png",
+        "gest_sad_d2.png",
+        "gest_sml_d2.png",
+        "gest_spk_d2.png",
+        "gest_srp_d2.png"
+      ],
+      "drk": [
+        "drk_d2.png"
+      ]
+    }
+  },
+  "ml_engineer": {
+    "id": "ml_engineer",
+    "name": "ML Engineer",
+    "description": "Machine learning specialist",
+    "figure": "hr-3163-37.hd-180-8.ch-3185-75.lg-3116-75.sh-3115-91",
+    "category": "data",
+    "sprites": {
+      "total": 58,
+      "std": [
+        "std_d0.png",
+        "std_d1.png",
+        "std_d2.png",
+        "std_d3.png",
+        "std_d4.png",
+        "std_d5.png",
+        "std_d6.png",
+        "std_d7.png"
+      ],
+      "sit": [
+        "sit_d0.png",
+        "sit_d2.png",
+        "sit_d4.png",
+        "sit_d6.png"
+      ],
+      "wlk": [
+        "wlk_d0_f0.png",
+        "wlk_d0_f1.png",
+        "wlk_d0_f2.png",
+        "wlk_d0_f3.png",
+        "wlk_d1_f0.png",
+        "wlk_d1_f1.png",
+        "wlk_d1_f2.png",
+        "wlk_d1_f3.png",
+        "wlk_d2_f0.png",
+        "wlk_d2_f1.png",
+        "wlk_d2_f2.png",
+        "wlk_d2_f3.png",
+        "wlk_d3_f0.png",
+        "wlk_d3_f1.png",
+        "wlk_d3_f2.png",
+        "wlk_d3_f3.png",
+        "wlk_d4_f0.png",
+        "wlk_d4_f1.png",
+        "wlk_d4_f2.png",
+        "wlk_d4_f3.png",
+        "wlk_d5_f0.png",
+        "wlk_d5_f1.png",
+        "wlk_d5_f2.png",
+        "wlk_d5_f3.png",
+        "wlk_d6_f0.png",
+        "wlk_d6_f1.png",
+        "wlk_d6_f2.png",
+        "wlk_d6_f3.png",
+        "wlk_d7_f0.png",
+        "wlk_d7_f1.png",
+        "wlk_d7_f2.png",
+        "wlk_d7_f3.png"
+      ],
+      "wav": [
+        "wav_d0.png",
+        "wav_d1.png",
+        "wav_d2.png",
+        "wav_d3.png",
+        "wav_d4.png",
+        "wav_d5.png",
+        "wav_d6.png",
+        "wav_d7.png"
+      ],
+      "gestures": [
+        "gest_agr_d2.png",
+        "gest_sad_d2.png",
+        "gest_sml_d2.png",
+        "gest_spk_d2.png",
+        "gest_srp_d2.png"
+      ],
+      "drk": [
+        "drk_d2.png"
+      ]
+    }
+  },
+  "researcher": {
+    "id": "researcher",
+    "name": "Researcher",
+    "description": "R&D researcher, academic",
+    "figure": "hr-155-37.hd-208-2.ch-255-82.lg-275-110.sh-295-91.fa-1201-62",
+    "category": "specialized",
+    "sprites": {
+      "total": 58,
+      "std": [
+        "std_d0.png",
+        "std_d1.png",
+        "std_d2.png",
+        "std_d3.png",
+        "std_d4.png",
+        "std_d5.png",
+        "std_d6.png",
+        "std_d7.png"
+      ],
+      "sit": [
+        "sit_d0.png",
+        "sit_d2.png",
+        "sit_d4.png",
+        "sit_d6.png"
+      ],
+      "wlk": [
+        "wlk_d0_f0.png",
+        "wlk_d0_f1.png",
+        "wlk_d0_f2.png",
+        "wlk_d0_f3.png",
+        "wlk_d1_f0.png",
+        "wlk_d1_f1.png",
+        "wlk_d1_f2.png",
+        "wlk_d1_f3.png",
+        "wlk_d2_f0.png",
+        "wlk_d2_f1.png",
+        "wlk_d2_f2.png",
+        "wlk_d2_f3.png",
+        "wlk_d3_f0.png",
+        "wlk_d3_f1.png",
+        "wlk_d3_f2.png",
+        "wlk_d3_f3.png",
+        "wlk_d4_f0.png",
+        "wlk_d4_f1.png",
+        "wlk_d4_f2.png",
+        "wlk_d4_f3.png",
+        "wlk_d5_f0.png",
+        "wlk_d5_f1.png",
+        "wlk_d5_f2.png",
+        "wlk_d5_f3.png",
+        "wlk_d6_f0.png",
+        "wlk_d6_f1.png",
+        "wlk_d6_f2.png",
+        "wlk_d6_f3.png",
+        "wlk_d7_f0.png",
+        "wlk_d7_f1.png",
+        "wlk_d7_f2.png",
+        "wlk_d7_f3.png"
+      ],
+      "wav": [
+        "wav_d0.png",
+        "wav_d1.png",
+        "wav_d2.png",
+        "wav_d3.png",
+        "wav_d4.png",
+        "wav_d5.png",
+        "wav_d6.png",
+        "wav_d7.png"
+      ],
+      "gestures": [
+        "gest_agr_d2.png",
+        "gest_sad_d2.png",
+        "gest_sml_d2.png",
+        "gest_spk_d2.png",
+        "gest_srp_d2.png"
+      ],
+      "drk": [
+        "drk_d2.png"
+      ]
+    }
+  },
+  "sales": {
+    "id": "sales",
+    "name": "Sales Rep",
+    "description": "Sales representative, sharp dresser",
+    "figure": "hr-831-45.hd-600-1.ch-3185-110.lg-3116-110.sh-3115-110",
+    "category": "operations",
+    "sprites": {
+      "total": 58,
+      "std": [
+        "std_d0.png",
+        "std_d1.png",
+        "std_d2.png",
+        "std_d3.png",
+        "std_d4.png",
+        "std_d5.png",
+        "std_d6.png",
+        "std_d7.png"
+      ],
+      "sit": [
+        "sit_d0.png",
+        "sit_d2.png",
+        "sit_d4.png",
+        "sit_d6.png"
+      ],
+      "wlk": [
+        "wlk_d0_f0.png",
+        "wlk_d0_f1.png",
+        "wlk_d0_f2.png",
+        "wlk_d0_f3.png",
+        "wlk_d1_f0.png",
+        "wlk_d1_f1.png",
+        "wlk_d1_f2.png",
+        "wlk_d1_f3.png",
+        "wlk_d2_f0.png",
+        "wlk_d2_f1.png",
+        "wlk_d2_f2.png",
+        "wlk_d2_f3.png",
+        "wlk_d3_f0.png",
+        "wlk_d3_f1.png",
+        "wlk_d3_f2.png",
+        "wlk_d3_f3.png",
+        "wlk_d4_f0.png",
+        "wlk_d4_f1.png",
+        "wlk_d4_f2.png",
+        "wlk_d4_f3.png",
+        "wlk_d5_f0.png",
+        "wlk_d5_f1.png",
+        "wlk_d5_f2.png",
+        "wlk_d5_f3.png",
+        "wlk_d6_f0.png",
+        "wlk_d6_f1.png",
+        "wlk_d6_f2.png",
+        "wlk_d6_f3.png",
+        "wlk_d7_f0.png",
+        "wlk_d7_f1.png",
+        "wlk_d7_f2.png",
+        "wlk_d7_f3.png"
+      ],
+      "wav": [
+        "wav_d0.png",
+        "wav_d1.png",
+        "wav_d2.png",
+        "wav_d3.png",
+        "wav_d4.png",
+        "wav_d5.png",
+        "wav_d6.png",
+        "wav_d7.png"
+      ],
+      "gestures": [
+        "gest_agr_d2.png",
+        "gest_sad_d2.png",
+        "gest_sml_d2.png",
+        "gest_spk_d2.png",
+        "gest_srp_d2.png"
+      ],
+      "drk": [
+        "drk_d2.png"
+      ]
+    }
+  },
+  "security": {
+    "id": "security",
+    "name": "Security",
+    "description": "Cybersecurity specialist, dark style",
+    "figure": "hr-831-61.hd-180-14.ch-3030-110.lg-3290-110.sh-3068-110.fa-1201-62",
+    "category": "specialized",
+    "sprites": {
+      "total": 58,
+      "std": [
+        "std_d0.png",
+        "std_d1.png",
+        "std_d2.png",
+        "std_d3.png",
+        "std_d4.png",
+        "std_d5.png",
+        "std_d6.png",
+        "std_d7.png"
+      ],
+      "sit": [
+        "sit_d0.png",
+        "sit_d2.png",
+        "sit_d4.png",
+        "sit_d6.png"
+      ],
+      "wlk": [
+        "wlk_d0_f0.png",
+        "wlk_d0_f1.png",
+        "wlk_d0_f2.png",
+        "wlk_d0_f3.png",
+        "wlk_d1_f0.png",
+        "wlk_d1_f1.png",
+        "wlk_d1_f2.png",
+        "wlk_d1_f3.png",
+        "wlk_d2_f0.png",
+        "wlk_d2_f1.png",
+        "wlk_d2_f2.png",
+        "wlk_d2_f3.png",
+        "wlk_d3_f0.png",
+        "wlk_d3_f1.png",
+        "wlk_d3_f2.png",
+        "wlk_d3_f3.png",
+        "wlk_d4_f0.png",
+        "wlk_d4_f1.png",
+        "wlk_d4_f2.png",
+        "wlk_d4_f3.png",
+        "wlk_d5_f0.png",
+        "wlk_d5_f1.png",
+        "wlk_d5_f2.png",
+        "wlk_d5_f3.png",
+        "wlk_d6_f0.png",
+        "wlk_d6_f1.png",
+        "wlk_d6_f2.png",
+        "wlk_d6_f3.png",
+        "wlk_d7_f0.png",
+        "wlk_d7_f1.png",
+        "wlk_d7_f2.png",
+        "wlk_d7_f3.png"
+      ],
+      "wav": [
+        "wav_d0.png",
+        "wav_d1.png",
+        "wav_d2.png",
+        "wav_d3.png",
+        "wav_d4.png",
+        "wav_d5.png",
+        "wav_d6.png",
+        "wav_d7.png"
+      ],
+      "gestures": [
+        "gest_agr_d2.png",
+        "gest_sad_d2.png",
+        "gest_sml_d2.png",
+        "gest_spk_d2.png",
+        "gest_srp_d2.png"
+      ],
+      "drk": [
+        "drk_d2.png"
+      ]
+    }
+  },
+  "support": {
+    "id": "support",
+    "name": "Support Agent",
+    "description": "Customer support, friendly look",
+    "figure": "hr-545-45.hd-600-8.ch-255-82.lg-280-75.sh-300-91",
+    "category": "operations",
+    "sprites": {
+      "total": 58,
+      "std": [
+        "std_d0.png",
+        "std_d1.png",
+        "std_d2.png",
+        "std_d3.png",
+        "std_d4.png",
+        "std_d5.png",
+        "std_d6.png",
+        "std_d7.png"
+      ],
+      "sit": [
+        "sit_d0.png",
+        "sit_d2.png",
+        "sit_d4.png",
+        "sit_d6.png"
+      ],
+      "wlk": [
+        "wlk_d0_f0.png",
+        "wlk_d0_f1.png",
+        "wlk_d0_f2.png",
+        "wlk_d0_f3.png",
+        "wlk_d1_f0.png",
+        "wlk_d1_f1.png",
+        "wlk_d1_f2.png",
+        "wlk_d1_f3.png",
+        "wlk_d2_f0.png",
+        "wlk_d2_f1.png",
+        "wlk_d2_f2.png",
+        "wlk_d2_f3.png",
+        "wlk_d3_f0.png",
+        "wlk_d3_f1.png",
+        "wlk_d3_f2.png",
+        "wlk_d3_f3.png",
+        "wlk_d4_f0.png",
+        "wlk_d4_f1.png",
+        "wlk_d4_f2.png",
+        "wlk_d4_f3.png",
+        "wlk_d5_f0.png",
+        "wlk_d5_f1.png",
+        "wlk_d5_f2.png",
+        "wlk_d5_f3.png",
+        "wlk_d6_f0.png",
+        "wlk_d6_f1.png",
+        "wlk_d6_f2.png",
+        "wlk_d6_f3.png",
+        "wlk_d7_f0.png",
+        "wlk_d7_f1.png",
+        "wlk_d7_f2.png",
+        "wlk_d7_f3.png"
+      ],
+      "wav": [
+        "wav_d0.png",
+        "wav_d1.png",
+        "wav_d2.png",
+        "wav_d3.png",
+        "wav_d4.png",
+        "wav_d5.png",
+        "wav_d6.png",
+        "wav_d7.png"
+      ],
+      "gestures": [
+        "gest_agr_d2.png",
+        "gest_sad_d2.png",
+        "gest_sml_d2.png",
+        "gest_spk_d2.png",
+        "gest_srp_d2.png"
+      ],
+      "drk": [
+        "drk_d2.png"
+      ]
+    }
+  }
+}

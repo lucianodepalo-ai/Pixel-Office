@@ -38,6 +38,13 @@ export default function RoomPage() {
       setReady(true);
     }
     checkAuth();
+
+    // Listen for messages from game iframe
+    function handleMessage(e: MessageEvent) {
+      if (e.data?.type === 'GO_LOBBY') router.push('/lobby');
+    }
+    window.addEventListener('message', handleMessage);
+    return () => window.removeEventListener('message', handleMessage);
   }, [roomId, isTestWorld, router]);
 
   function handleIframeLoad() {
@@ -68,14 +75,6 @@ export default function RoomPage() {
 
   return (
     <div className="fixed inset-0 bg-[#060610]">
-      {/* Back to lobby button - floating above iframe */}
-      <button
-        onClick={() => router.push("/lobby")}
-        className="fixed top-3 right-3 z-50 font-['Press_Start_2P',cursive] text-[7px] text-[#555] bg-[rgba(8,8,18,0.95)] border border-[#1a1a2e] rounded-lg px-3 py-2 hover:border-[#00ff88] hover:text-[#00ff88] transition-all"
-      >
-        ← Lobby
-      </button>
-
       {/* Game iframe - full screen */}
       <iframe
         id="game-iframe"
